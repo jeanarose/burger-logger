@@ -1,0 +1,6 @@
+1,Classic Burger,false, CURRENT_TIMESTAMP
+2,Mushroom and Swiss Burger,false, CURRENT_TIMESTAMP
+3,Double Cheese Burger,true,CURRENT_TIMESTAMP
+4,Loaded Mac and Cheese Burger,true,CURRENT_TIMESTAMP
+5,Pulled Pork Burger,true,CURRENT_TIMESTAMP
+6,Black Bean Burger,false, CURRENT_TIMESTAMP
