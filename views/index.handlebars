@@ -1,24 +1,28 @@
-<h1>Burgers!</h1>
+<img class="burger-img mx-auto d-block" src="/assets/images/burger-img.png" alt="">
 
-<h2>Burgers that are not devoured!</h2>
-
-<ul>
-  {{#each burgers}}
-    {{#unless devoured}}
+<div class="row">
+  <div class="col-sm-6 mx-auto devour">
+    <h2>Burgers you need to devour!</h2>
+    <ul>
+      {{#each burgers}}
+      {{#unless devoured}}
       {{> burgers/burger-block appetite=true}}
-    {{/unless}}
-  {{/each}}
-</ul>
-
-<h2>Burgers that are devoured!</h2>
-
-<ul>
-  {{#each burgers}}
-    {{#if devoured}}
+      {{/unless}}
+      {{/each}}
+    </ul>
+  </div>
+  <div class="col-sm-6 mx-auto devour">
+    <h2>Burgers you've devoured!</h2>
+    <ul>
+      {{#each burgers}}
+      {{#if devoured}}
       {{> burgers/burger-block appetite=false}}
-    {{/if}}
-  {{/each}}
-</ul>
+      {{/if}}
+      {{/each}}
+    </ul>
+  </div>
+</div>
+
 
 <h2>Add a burger</h2>
 <form class="create-form">
