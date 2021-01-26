@@ -34,8 +34,18 @@ li {
     background-color: #2a9d8f;
 }
 
+.change-appetite:hover {
+    background-color: #217e73;
+    color: white;
+}
+
 .delete-burger {
     background-color: #e76f51;
+}
+
+.delete-burger:hover {
+    background-color: #c65b40;
+    color: white;
 }
 
 .change-appetite, .delete-burger {
