@@ -21,9 +21,13 @@ li {
     list-style: none;
 }
 
+.container {
+    margin-bottom: 40px;
+}
+
 .burger-img {
     max-height: 200px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .devour {
