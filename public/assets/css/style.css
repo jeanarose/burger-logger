@@ -1,27 +1,55 @@
 body {
     background-color: #e9c46a;
     margin: 0 auto;
+    color: #264653;
 }
 
 h1 {
     text-align: center;
 }
 
-.devour {
-    background-color: #e76f51;
+h2 {
+    text-align: center;
+    background-color: #264653;
     color: white;
     border-radius: 10px;
-    margin: 40px;
     padding: 20px;
-    max-width: 45% !important;
 }
 
-.change-appetite {
-    background-color: #2a9d8f;
-    color: white;
+li {
+    padding-top: 20px;
+    list-style: none;
 }
 
 .burger-img {
     max-height: 200px;
     margin-top: 40px;
+}
+
+.devour {
+    max-width: 95% !important;
+}
+
+.change-appetite {
+    background-color: #2a9d8f;
+}
+
+.delete-burger {
+    background-color: #e76f51;
+}
+
+.change-appetite, .delete-burger {
+    float: right;
+    margin-left: 3px;
+    color: white;
+}
+
+.form {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.submit-btn {
+    background-color: #264653;
+    color: white;
 }
