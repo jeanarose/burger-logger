@@ -30,6 +30,8 @@ The following people contributed to the success of this application. You can vie
 * [Peter Colella](https://github.com/petercolella)
 
 The following sites were used to find code to make Weather Dashboard function properly:
+* [Coolors](https://coolors.co/palettes/trending)
+* [Free PNG Images:](http://freepngimages.com/bacon-burger-transparent-background/) Burger image
 
 ## License
 Copyright (c) 2021 Jeana Rose Mathis
