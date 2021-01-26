@@ -48,6 +48,16 @@ li {
     color: white;
 }
 
+.submit-btn {
+    background-color: #264653;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #1d363f;
+    color: white;
+}
+
 .change-appetite, .delete-burger {
     float: right;
     margin-left: 3px;
@@ -65,7 +75,3 @@ li {
     padding: 20px;
 }
 
-.submit-btn {
-    background-color: #264653;
-    color: white;
-}
